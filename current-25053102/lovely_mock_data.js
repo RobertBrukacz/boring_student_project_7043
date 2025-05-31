@@ -1,0 +1,56 @@
+export const lovelyProfileData = {
+    "navigation": [
+        { "label": "Das bin ich", "active": true },
+        { "label": "Meine Wünsche", "active": false },
+        { "label": "Vorschläge", "active": false },
+        { "label": "Kontakte", "active": false }
+    ],
+    "sections": [
+        {
+            "title": "bereits beantwortet",
+            "questions": [
+                {
+                    "label": "fühle mich wie",
+                    "value": "26 Jahre",
+                    "slider": 50
+                },
+                {
+                    "label": "mein Geschlecht",
+                    "value": "sehr weiblich",
+                    "slider": 50
+                },
+                {
+                    "label": "wohne in",
+                    "value": "Berlin - die Muddastadt",
+                    "slider": 50
+                },
+                {
+                    "label": "Life Style",
+                    "value": "Heavy Metal",
+                    "slider": 50
+                },
+                {
+                    "label": "Was bedeutet für dich emotionale",
+                    "value": "Für mich ist emotionale Intimität wie ein stiller Garten. Du bist da, ich bin da – ohne Masken.",
+                    "slider": 50
+                }
+            ]
+        },
+        {
+            "title": "als nächstes",
+            "questions": [
+                {
+                    "label": "Wie gehst du mit dem Wissen um deine Endlichkeit um?",
+                    "value": "...",
+                    "slider": 50
+                },
+                {
+                    "label": "Was ist dir in einer Partnerschaft wichtiger:",
+                    "value": "...",
+                    "slider": 50
+                }
+            ]
+        }
+    ],
+    "nextNavigationHint": "Meine Wünsche"
+};
